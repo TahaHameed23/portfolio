@@ -4,6 +4,11 @@
 	import favicon from '$lib/assets/icon/favicon.ico';
 	import Header from '$lib/components/Header.svelte';
 	import { browser } from '$app/environment';
+	import { env } from '$env/dynamic/public';
+
+	const analyticsScriptSrc = env.PUBLIC_ANALYTICS_SCRIPT_URL ?? 'http://localhost:3000/script.js';
+	const analyticsWebsiteId =
+		env.PUBLIC_ANALYTICS_WEBSITE_ID ?? 'a542cd07-0a69-47f1-b4ea-18903aae5866';
 
 	let { children } = $props();
 	let isDark = $state(
@@ -34,7 +39,10 @@
 	}
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head
+	><link rel="icon" href={favicon} />
+	<script defer src={analyticsScriptSrc} data-website-id={analyticsWebsiteId}></script>
+</svelte:head>
 <div
 	class="min-h-screen bg-olive-200 px-4 text-slate-900 transition-colors duration-300 selection:bg-orange-500 selection:text-white lg:px-20 dark:bg-black dark:text-gray-100"
 >
