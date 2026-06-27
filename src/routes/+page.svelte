@@ -53,7 +53,7 @@
 </div>
 
 <section>
-	<div class="mb-28 text-lg sm:text-xl lg:text-2xl">
+	<div class="mb-28 sm:text-xl lg:text-xl">
 		I'm currently working at Cognizant as a Programmer Analyst
 	</div>
 </section>
@@ -73,5 +73,16 @@
 			web analytics platform for tracking & analyzing website traffic, user behavior, & engagement
 			metrics.
 		</div>
+	</div>
+</section>
+
+<section class="mt-12 mb-12 lg:mt-16 lg:mb-16 lg:text-lg">
+	<div>
+		Here's a resource list I have curated:
+		<a
+			href="https://taha-hameed.notion.site/Learning-repository-8307485b5eb047aca354af66b6e1b2b8"
+			class="text-blue-500 hover:underline hover:decoration-dashed hover:underline-offset-3"
+			target="_blank">learning repository</a
+		>
 	</div>
 </section>
