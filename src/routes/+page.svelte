@@ -61,7 +61,6 @@
 <section>
 	<div class="mb-4 text-lg sm:text-xl lg:text-2xl">My works:</div>
 	<div>
-		>
 		<a
 			href="https://datafloww.onrender.com"
 			target="_blank"
@@ -72,6 +71,19 @@
 		<div class="mt-2 text-base sm:text-lg lg:text-lg">
 			web analytics platform for tracking & analyzing website traffic, user behavior, & engagement
 			metrics.
+		</div>
+		<div class="mt-4 text-base sm:text-lg lg:text-lg">
+			<a
+				href="https://appread.appwrite.network"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="text-xl tracking-normal underline underline-offset-3 ease-in-out hover:underline hover:decoration-dashed hover:underline-offset-3 sm:text-2xl lg:text-3xl"
+				>Appread</a
+			>
+			<div class="mt-2 text-base sm:text-lg lg:text-lg">
+				a web application that allows users to read and manage their favorite articles, blogs, and
+				news content in one place.
+			</div>
 		</div>
 	</div>
 </section>
