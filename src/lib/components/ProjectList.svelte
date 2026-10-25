@@ -4,7 +4,7 @@
 	const projects = [
 		{
 			href: 'https://datafloww.onrender.com',
-			title: 'Datafloww',
+			title: 'Dataflow',
 			description:
 				'web analytics platform for tracking & analyzing website traffic, user behavior, & engagement metrics.'
 		},
@@ -12,7 +12,12 @@
 			href: 'https://appread.appwrite.network',
 			title: 'Appread',
 			description:
-				'a web application that allows users to read and manage their favorite articles, blogs, and news content in one place.'
+				'web application that allows users to read and manage their favorite articles, blogs, and news content in one place.'
+		},
+		{
+			href: 'https://urlz.qzz.io',
+			title: 'URLz',
+			description: 'URL shortener built on cloudflare stack.'
 		}
 	];
 </script>
